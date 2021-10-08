@@ -66,7 +66,7 @@ public class TP1_exo3 {
         } while (nb != alea);
         if (nb == alea) {
             System.out.println(
-                    "exact en " + z + " coups");
+                    "trouvée en " + z + " coups");
         }
     }
    
