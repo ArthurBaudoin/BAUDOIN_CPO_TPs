@@ -20,7 +20,7 @@ public class TP1_exo2 {
         double nbEntier1;
         Scanner sc = new Scanner(System.in);
         System.out.println("Saisir une valeur :");
-        double nbEntier1 = sc.nextDouble();
+         nbEntier1 = sc.nextDouble();
         
         int rep;
         do { 
