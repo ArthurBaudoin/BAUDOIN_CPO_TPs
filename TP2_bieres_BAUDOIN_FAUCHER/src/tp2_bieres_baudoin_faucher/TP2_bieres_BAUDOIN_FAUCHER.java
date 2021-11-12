@@ -15,42 +15,29 @@ public class TP2_bieres_BAUDOIN_FAUCHER {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-  /*
-        BouteilleBiere uneBiere = new BouteilleBiere() ;
-        
-        uneBiere.Nom = "Cuvée des trolls";
-        uneBiere.degreAlcool =  7.0 ;
-        uneBiere.brasserie = "Dubuisson";
-        uneBiere.ouverte = false;
-        
+  BouteilleBiere uneBiere =new BouteilleBiere("Cuvée des trolls",7.0,"Dubuisson");
         uneBiere.lireEtiquette();
+        
+        BouteilleBiere deuxBiere = new BouteilleBiere("Leffe", 6.6 , "Abbaye de Leffe");
+        deuxBiere.lireEtiquette();        
 
-        BouteilleBiere uneBiere2 = new BouteilleBiere() ;
+        BouteilleBiere troisBiere = new BouteilleBiere ("Tripel Karmeliet", 8.6 , "Brasserie Bosteels");
+        troisBiere.lireEtiquette();
         
-        uneBiere2.Nom = "Leffe";
-        uneBiere2.degreAlcool = 6.6 ;
-        uneBiere2.brasserie = "Abbaye de Leffe";
-        uneBiere2.ouverte = false; 
+        BouteilleBiere quatreBiere = new BouteilleBiere ("Kronenbourg", 4.2 , "Brasserie Kronenbourg");
+        quatreBiere.lireEtiquette();
         
-        uneBiere2.lireEtiquette(); 
-        */
+        BouteilleBiere cinqBiere = new BouteilleBiere ("pelforth", 6.5 , "Brasseries Heineken");
+        cinqBiere.lireEtiquette();
+        
+        System.out.println(cinqBiere.ouverte);
+        cinqBiere.Decapsuler();
+        System.out.println(cinqBiere.ouverte);
+        
+        System.out.println(uneBiere) ;
+        uneBiere.Decapsuler();
+        System.out.println(uneBiere);
 
-        BouteilleBiere Leffe = new BouteilleBiere("Leffe", 6.6,"Abbaye de Leffe") ;
-        BouteilleBiere Trolls = new BouteilleBiere("Cuvée des trolls",7.0 ,"Dubuisson") ;
-        BouteilleBiere Pelforth = new BouteilleBiere("Pelforth",5.8 ,"brasserie du Pelican") ;
-        BouteilleBiere Chouffe = new BouteilleBiere("Chouffe", 8.0 ,"brasserie d'Achouffe") ;
-        BouteilleBiere demon = new BouteilleBiere("Bière du démon", 12.0 ,"brasserie de Gayant") ;
-        
-        
-        Leffe.lireEtiquette();
-        Trolls.lireEtiquette();
-        Pelforth.lireEtiquette();
-        Chouffe.lireEtiquette();
-        demon.lireEtiquette();
-    
-    
-    
     }
-    
-    
+   
 }
