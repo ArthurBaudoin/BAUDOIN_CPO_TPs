@@ -9,5 +9,13 @@ package sp4_console_baudoin._faucher;
  * @author arthu
  */
 public class Jeton {
+    String couleur;
     
+    public Jeton(String color1){
+        couleur = color1;
+    }
+    public String lireCouleur(){
+// on obtient ainsi la couleur du jeton 
+    return couleur;
+    }
 }
