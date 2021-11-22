@@ -19,11 +19,23 @@ public class Cellule {
         desintegrateur = false;    
     }
     
-    boolean affecterjeton(Jeton newjeton){
+    boolean affecterjeton(Jeton Newjeton){
         if(jetonCourant == null){
-            jetonCourant = newjeton;
+            jetonCourant = Newjeton;
             return true;
         }
         return false;
     }
+    
+    Jeton recupererJeton(){
+        Jeton Backjeton = jetonCourant;
+        jetonCourant = null;
+        return Backjeton;
+        }
+
+
+
+
+
+
 }
