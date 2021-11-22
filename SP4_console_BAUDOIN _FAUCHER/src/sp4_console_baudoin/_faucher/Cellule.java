@@ -32,6 +32,14 @@ public class Cellule {
         jetonCourant = null;
         return Backjeton;
         }
+    
+    boolean supprimerJeton(){
+        if(jetonCourant == null){
+            return false;     
+        }
+        jetonCourant = null;
+        return true;
+    }
 
 
 
