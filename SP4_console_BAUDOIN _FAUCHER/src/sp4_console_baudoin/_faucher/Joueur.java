@@ -9,5 +9,26 @@ package sp4_console_baudoin._faucher;
  * @author arthu
  */
 public class Joueur {
+    String Nom;
+    String Couleur;
+    Jeton ListeJetons [] = new Jeton [21];
+    int nombreJetonsRestants = 0;
+    int nombreDesintegrateurs = 0;
+
+public Joueur(String unNom){
+    Nom = unNom;
+}
+
+public void affecterCouleur(String uneCouleur){
+    Couleur = uneCouleur;
+}
     
+
+
+
+
+
+
+
+
 }
